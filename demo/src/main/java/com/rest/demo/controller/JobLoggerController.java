@@ -24,6 +24,9 @@ public class JobLoggerController {
 			
 			jobLoggerService.saveJobLogger(inRequest);
 			
+			// change one - a
+			// change one - b
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
