@@ -34,5 +34,10 @@ public class JobLoggerController {
 	List<JobLogger> logMessageList(){
 		return jobLoggerService.findJobLoggers();
 	}
+
+	@RequestMapping(path = "/jobLoggers2")
+	List<JobLogger> newMethod(){
+		return jobLoggerService.findJobLoggers();
+	}
 	
 }
